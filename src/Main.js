@@ -9,13 +9,15 @@ import Artists from "./Artists";
 import Pricing from "./Pricing";
 import FAQ from "./FAQ";
 import Reviews from "./Reviews";
+import H_Component from "./images/Header_Component.png"
 
 class Main extends Component {
     render() {
         return (
             <HashRouter>
                 <div>
-                    <h1>Picks Of Destiny</h1>
+                    <img className="headImg" src={H_Component} alt="" height={180}/>
+                    
                     <ul className="header">
                         <li><NavLink to="/">Products</NavLink></li>
                         <li><NavLink to="/artists">Artists</NavLink></li>
