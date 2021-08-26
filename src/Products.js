@@ -11,7 +11,7 @@ import P6 from "./images/Pick_6.png"
 import AceP1 from "./images/Ace_Pick_1.png"
 import AceP2 from "./images/Ace_Pick_2.png"
 import AceP3 from "./images/Ace_Pick_3.png"
-import smoke from "./images/smoke.png"
+import Smoke from "./images/Smoke.png"
 import { makeStyles, createStyles} from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
@@ -39,7 +39,7 @@ return (
 	<Grid container spacing={1}>
 		<Grid item xs={12}>
 		<Paper className={classes.paper}>
-      <img className = "smoke" src = {smoke} alt= "smoke"/>			
+      <img className = "Smoke" src = {Smoke} alt= "Smoke"/>			
 		</Paper>
 		</Grid>
     <Grid item xs={12} sm={6}>
