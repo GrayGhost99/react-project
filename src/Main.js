@@ -32,6 +32,9 @@ class Main extends Component {
                         <Route path="/faq" component={FAQ}/>
                         <Route path="/Reviews" component={Reviews}/>
                     </div>
+                    <ul className="footer">
+                        <h2>Thanks For Visiting!</h2>
+                    </ul>
                 </div>
             </HashRouter>
         );

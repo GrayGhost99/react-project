@@ -12,7 +12,7 @@ body {
   h1 {
     font-family: frijole;
   }
-  h2 {
+  h2, h3{
     font-family: Playball;
   }
   p, ul, li {
@@ -20,6 +20,11 @@ body {
   }
   p {
     text-align: center;
+  }
+  h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
   }
   ul.header li {
     display: inline-flex;
@@ -35,6 +40,13 @@ body {
     background-color: #B5B6EA;
     padding: 0;
   }
+  
+  img.smoke {
+    width: 1700px;
+    height: 100px;
+    opacity: 60%;
+  }
+
   ul.header li a {
     font-family: Playball;
     font-size: 30px;
@@ -43,6 +55,12 @@ body {
     text-decoration: none;
     padding: 10px 143px;
     display: inline-flex;
+  }
+
+  label {
+    font-family: Playball;
+    font-size: 30px;
+    color: #070707;
   }
   .content {
     background-color: #E5E5E5;
@@ -56,72 +74,42 @@ body {
   .content li {
     margin-bottom: 10px;
   }
-  h2 {
+
+  h2{
     text-align: center;
   }
-
-  span.a {
-    display: inline-flex;
-    width: 9%;
+  
+  ul.footer {
     height: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    border: 1px solid #000000;  
-    align-items: center;
-    justify-content: center;     
+    background-color: #B5B6EA;
+    padding: 0;
   }
 
-  span.b {
-    display: inline-flex;
-    width: 80%;
-    height: 30px;
+  img.Music {
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid #000000;  
-    align-items: center;
-    justify-content: center;   
+    width: 450px;
+    height: 300px; 
   }
 
-  span.c {
-    display: inline-flex;
-    width: 9%;
-    height: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    border: 1px solid #000000; 
+  img.ArtP1, img.ArtP2, img.ArtP3,
+  img.AceP1, img.AceP2, img.AceP3 {
+    margin-left: 20px;
+    margin-top: 20px;
     align-items: center;
-    justify-content: center;   
   }
 
-  span.d {
-    display: inline-flex;
-    width: 9%;
-    height: 540px;
-    margin-left: auto;
-    margin-right: auto;
-    border: 1px solid #000000;
-    align-items: center;
-    justify-content: center;       
-  }
+  .Ffdp, .Converge, .MonoLord, .UponBB {
+    width: 850px;
+    height: 500px;
+    align-items: center;   
+   }
+   
 
-  span.e {
-    display: inline-flex;
-    width: 80%;
-    height: 540px;
-    margin-left: auto;
-    margin-right: auto;
-    border: 1px solid #000000;
+  img.Pick_1, img.Pick_2, img.Pick_3, 
+  img.Pick_4, img.Pick_5, img.Pick_6 {
+    margin-left: 100px;
+    margin-top: 25px;
     align-items: center;
-    justify-content: center;     
-  }
-
-  span.f {
-    display: inline-flex;
-    width: 9%;
-    height: 540px;
-    margin-left: auto;
-    margin-right: auto;
-    border: 1px solid #000000; 
-    align-items: center;
-    justify-content: center;   
-  }
+}
