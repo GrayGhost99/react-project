@@ -1,3 +1,29 @@
+# Project Application for Michael L. Moore
+
+This project was an attempt to improve on an existing website for a class project.
+
+The focus was on interface design and was intended to clean up the existing interface.
+
+Project submission date: 8/29/2021
+
+## Elements utilized in the design
+
+A few of the techniques and items utilized:
+
+### Grid Container
+
+Used to contain the FAQ cards.
+
+### Flippy Cards
+
+Used to display questions and answers in the FAQ section.
+
+### Fonts
+
+Used a fonts folder to store Playball font so it could be used for navigation and "h3" headers.
+
+# See items below for React information:
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
