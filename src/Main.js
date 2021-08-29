@@ -10,6 +10,10 @@ import Pricing from "./Pricing";
 import FAQ from "./FAQ";
 import Reviews from "./Reviews";
 import H_Component from "./images/Header_Component.png"
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+</style>
+
 
 class Main extends Component {
     render() {
