@@ -110,6 +110,13 @@ body {
     src: local('Playball'), url(./fonts/Playball.ttf) format('truetype');
   }
 
+  div.flippy-cardContainer {
+    align-items: center;
+    text-align: center;
+    margin-left: 60px;
+    margin-top: 20px;
+  }
+
   img.Pick_1, img.Pick_2, img.Pick_3, 
   img.Pick_4, img.Pick_5, img.Pick_6 {
     margin-left: 100px;
