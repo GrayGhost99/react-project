@@ -105,6 +105,10 @@ body {
     align-items: center;   
    }
    
+   @font-face {
+    font-family: 'Playball';
+    src: local('Playball'), url(./fonts/Playball.ttf) format('truetype');
+  }
 
   img.Pick_1, img.Pick_2, img.Pick_3, 
   img.Pick_4, img.Pick_5, img.Pick_6 {
